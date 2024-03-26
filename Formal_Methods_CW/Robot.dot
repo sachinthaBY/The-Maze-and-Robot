@@ -1,0 +1,173 @@
+digraph state {
+ graph [fontsize=12]
+rankdir=TB;
+"1" -> "5" [label = "EXIT", color = "firebrick"];
+"7" -> "4" [label = "INVALID_CELLS", color = "sienna"];
+"6" -> "4" [label = "INVALID_CELLS", color = "sienna"];
+"6" -> "2" [label = "INVALID_CELLS", color = "sienna"];
+"6" -> "1" [label = "INVALID_CELLS", color = "sienna"];
+"4" -> "4" [label = "INVALID_CELLS", color = "sienna"];
+"4" -> "3" [label = "INVALID_CELLS", color = "sienna"];
+"4" -> "2" [label = "INVALID_CELLS", color = "sienna"];
+"3" -> "3" [label = "INVALID_CELLS", color = "sienna"];
+"2" -> "5" [label = "INVALID_CELLS", color = "sienna"];
+"2" -> "3" [label = "INVALID_CELLS", color = "sienna"];
+"2" -> "1" [label = "INVALID_CELLS", color = "sienna"];
+"1" -> "3" [label = "INVALID_CELLS", color = "sienna"];
+"7" -> "5" [label = "CELL", color = "SlateBlue4"];
+"7" -> "4" [label = "CELL", color = "SlateBlue4"];
+"7" -> "3" [label = "CELL", color = "SlateBlue4"];
+"7" -> "2" [label = "CELL", color = "SlateBlue4"];
+"7" -> "1" [label = "CELL", color = "SlateBlue4"];
+"6" -> "5" [label = "CELL", color = "SlateBlue4"];
+"6" -> "4" [label = "CELL", color = "SlateBlue4"];
+"6" -> "3" [label = "CELL", color = "SlateBlue4"];
+"6" -> "2" [label = "CELL", color = "SlateBlue4"];
+"6" -> "1" [label = "CELL", color = "SlateBlue4"];
+"5" -> "5" [label = "CELL", color = "SlateBlue4"];
+"5" -> "4" [label = "CELL", color = "SlateBlue4"];
+"5" -> "3" [label = "CELL", color = "SlateBlue4"];
+"5" -> "2" [label = "CELL", color = "SlateBlue4"];
+"5" -> "1" [label = "CELL", color = "SlateBlue4"];
+"4" -> "5" [label = "CELL", color = "SlateBlue4"];
+"4" -> "4" [label = "CELL", color = "SlateBlue4"];
+"4" -> "3" [label = "CELL", color = "SlateBlue4"];
+"4" -> "2" [label = "CELL", color = "SlateBlue4"];
+"4" -> "1" [label = "CELL", color = "SlateBlue4"];
+"3" -> "5" [label = "CELL", color = "SlateBlue4"];
+"3" -> "4" [label = "CELL", color = "SlateBlue4"];
+"3" -> "3" [label = "CELL", color = "SlateBlue4"];
+"3" -> "2" [label = "CELL", color = "SlateBlue4"];
+"3" -> "1" [label = "CELL", color = "SlateBlue4"];
+"2" -> "5" [label = "CELL", color = "SlateBlue4"];
+"2" -> "4" [label = "CELL", color = "SlateBlue4"];
+"2" -> "3" [label = "CELL", color = "SlateBlue4"];
+"2" -> "2" [label = "CELL", color = "SlateBlue4"];
+"2" -> "1" [label = "CELL", color = "SlateBlue4"];
+"1" -> "5" [label = "CELL", color = "SlateBlue4"];
+"1" -> "4" [label = "CELL", color = "SlateBlue4"];
+"1" -> "3" [label = "CELL", color = "SlateBlue4"];
+"1" -> "2" [label = "CELL", color = "SlateBlue4"];
+"1" -> "1" [label = "CELL", color = "SlateBlue4"];
+"5" -> "ROOT-NODE" [label = "MAZE_HEIGHT", color = "black"];
+"4" -> "ROOT-NODE" [label = "MAZE_HEIGHT", color = "black"];
+"3" -> "ROOT-NODE" [label = "MAZE_HEIGHT", color = "black"];
+"2" -> "ROOT-NODE" [label = "MAZE_HEIGHT", color = "black"];
+"1" -> "ROOT-NODE" [label = "MAZE_HEIGHT", color = "black"];
+"7" -> "ROOT-NODE" [label = "MAZE_WIDTH", color = "#efdf84"];
+"6" -> "ROOT-NODE" [label = "MAZE_WIDTH", color = "#efdf84"];
+"5" -> "ROOT-NODE" [label = "MAZE_WIDTH", color = "#efdf84"];
+"4" -> "ROOT-NODE" [label = "MAZE_WIDTH", color = "#efdf84"];
+"3" -> "ROOT-NODE" [label = "MAZE_WIDTH", color = "#efdf84"];
+"2" -> "ROOT-NODE" [label = "MAZE_WIDTH", color = "#efdf84"];
+"1" -> "ROOT-NODE" [label = "MAZE_WIDTH", color = "#efdf84"];
+"5" -> "5" [label = "visitedCells", color = "#bdef6b"];
+"5" -> "4" [label = "visitedCells", color = "#bdef6b"];
+"5" -> "3" [label = "visitedCells", color = "#bdef6b"];
+"5" -> "2" [label = "visitedCells", color = "#bdef6b"];
+"5" -> "1" [label = "visitedCells", color = "#bdef6b"];
+"4" -> "5" [label = "visitedCells", color = "#bdef6b"];
+"4" -> "1" [label = "visitedCells", color = "#bdef6b"];
+"3" -> "5" [label = "visitedCells", color = "#bdef6b"];
+"3" -> "4" [label = "visitedCells", color = "#bdef6b"];
+"3" -> "2" [label = "visitedCells", color = "#bdef6b"];
+"3" -> "1" [label = "visitedCells", color = "#bdef6b"];
+"2" -> "4" [label = "visitedCells", color = "#bdef6b"];
+"2" -> "2" [label = "visitedCells", color = "#bdef6b"];
+"1" -> "4" [label = "visitedCells", color = "#bdef6b"];
+"1" -> "2" [label = "visitedCells", color = "#bdef6b"];
+"1" -> "1" [label = "visitedCells", color = "#bdef6b"];
+"1" -> "5" [label = "routes(17)", color = "#5863ee"];
+"1" -> "4" [label = "routes(16)", color = "LightSteelBlue1"];
+"2" -> "4" [label = "routes(15)", color = "gray"];
+"3" -> "4" [label = "routes(14)", color = "#efdf84"];
+"3" -> "5" [label = "routes(13)", color = "#bdef6b"];
+"4" -> "5" [label = "routes(12)", color = "#5863ee"];
+"5" -> "5" [label = "routes(11)", color = "LightSteelBlue1"];
+"5" -> "4" [label = "routes(10)", color = "gray"];
+"5" -> "3" [label = "routes(9)", color = "#efdf84"];
+"5" -> "2" [label = "routes(8)", color = "#bdef6b"];
+"5" -> "1" [label = "routes(7)", color = "#5863ee"];
+"4" -> "1" [label = "routes(6)", color = "LightSteelBlue1"];
+"3" -> "1" [label = "routes(5)", color = "gray"];
+"3" -> "2" [label = "routes(4)", color = "#efdf84"];
+"2" -> "2" [label = "routes(3)", color = "#bdef6b"];
+"1" -> "2" [label = "routes(2)", color = "#5863ee"];
+"1" -> "1" [label = "routes(1)", color = "LightSteelBlue1"];
+"5" -> "ROOT-NODE" [label = "robot_y_Position", color = "gray"];
+"1" -> "ROOT-NODE" [label = "robot_x_Position", color = "#efdf84"];
+"7" -> "5" [label = "panel", color = "#bdef6b"];
+"7" -> "4" [label = "panel", color = "#bdef6b"];
+"7" -> "3" [label = "panel", color = "#bdef6b"];
+"7" -> "2" [label = "panel", color = "#bdef6b"];
+"7" -> "1" [label = "panel", color = "#bdef6b"];
+"6" -> "5" [label = "panel", color = "#bdef6b"];
+"6" -> "4" [label = "panel", color = "#bdef6b"];
+"6" -> "3" [label = "panel", color = "#bdef6b"];
+"6" -> "2" [label = "panel", color = "#bdef6b"];
+"6" -> "1" [label = "panel", color = "#bdef6b"];
+"5" -> "5" [label = "panel", color = "#bdef6b"];
+"5" -> "4" [label = "panel", color = "#bdef6b"];
+"5" -> "3" [label = "panel", color = "#bdef6b"];
+"5" -> "2" [label = "panel", color = "#bdef6b"];
+"5" -> "1" [label = "panel", color = "#bdef6b"];
+"4" -> "5" [label = "panel", color = "#bdef6b"];
+"4" -> "4" [label = "panel", color = "#bdef6b"];
+"4" -> "3" [label = "panel", color = "#bdef6b"];
+"4" -> "2" [label = "panel", color = "#bdef6b"];
+"4" -> "1" [label = "panel", color = "#bdef6b"];
+"3" -> "5" [label = "panel", color = "#bdef6b"];
+"3" -> "4" [label = "panel", color = "#bdef6b"];
+"3" -> "3" [label = "panel", color = "#bdef6b"];
+"3" -> "2" [label = "panel", color = "#bdef6b"];
+"3" -> "1" [label = "panel", color = "#bdef6b"];
+"2" -> "5" [label = "panel", color = "#bdef6b"];
+"2" -> "4" [label = "panel", color = "#bdef6b"];
+"2" -> "3" [label = "panel", color = "#bdef6b"];
+"2" -> "2" [label = "panel", color = "#bdef6b"];
+"2" -> "1" [label = "panel", color = "#bdef6b"];
+"1" -> "5" [label = "panel", color = "#bdef6b"];
+"1" -> "4" [label = "panel", color = "#bdef6b"];
+"1" -> "3" [label = "panel", color = "#bdef6b"];
+"1" -> "2" [label = "panel", color = "#bdef6b"];
+"1" -> "1" [label = "panel", color = "#bdef6b"];
+"16" -> "NORTH" [label = "movements", color = "#5863ee"];
+"15" -> "WEST" [label = "movements", color = "#5863ee"];
+"14" -> "WEST" [label = "movements", color = "#5863ee"];
+"13" -> "SOUTH" [label = "movements", color = "#5863ee"];
+"12" -> "WEST" [label = "movements", color = "#5863ee"];
+"11" -> "WEST" [label = "movements", color = "#5863ee"];
+"10" -> "NORTH" [label = "movements", color = "#5863ee"];
+"9" -> "NORTH" [label = "movements", color = "#5863ee"];
+"8" -> "NORTH" [label = "movements", color = "#5863ee"];
+"7" -> "NORTH" [label = "movements", color = "#5863ee"];
+"6" -> "EAST" [label = "movements", color = "#5863ee"];
+"5" -> "EAST" [label = "movements", color = "#5863ee"];
+"4" -> "SOUTH" [label = "movements", color = "#5863ee"];
+"3" -> "EAST" [label = "movements", color = "#5863ee"];
+"2" -> "EAST" [label = "movements", color = "#5863ee"];
+"1" -> "NORTH" [label = "movements", color = "#5863ee"];
+"1" [color = "wheat3", style = "filled, solid", shape = "box"]
+"5" [color = "wheat3", style = "filled, solid", shape = "box"]
+"7" [color = "wheat3", style = "filled, solid", shape = "box"]
+"4" [color = "wheat3", style = "filled, solid", shape = "box"]
+"6" [color = "wheat3", style = "filled, solid", shape = "box"]
+"2" [color = "wheat3", style = "filled, solid", shape = "box"]
+"3" [color = "wheat3", style = "filled, solid", shape = "box"]
+"ROOT-NODE" [color = "lightblue", style = "filled, solid", shape = "diamond"]
+"16" [color = "wheat3", style = "filled, solid", shape = "box"]
+"NORTH" [color = "#efdf84", style = "filled, solid", shape = "box"]
+"15" [color = "wheat3", style = "filled, solid", shape = "box"]
+"WEST" [color = "#efdf84", style = "filled, solid", shape = "box"]
+"14" [color = "wheat3", style = "filled, solid", shape = "box"]
+"13" [color = "wheat3", style = "filled, solid", shape = "box"]
+"SOUTH" [color = "#efdf84", style = "filled, solid", shape = "box"]
+"12" [color = "wheat3", style = "filled, solid", shape = "box"]
+"11" [color = "wheat3", style = "filled, solid", shape = "box"]
+"10" [color = "wheat3", style = "filled, solid", shape = "box"]
+"9" [color = "wheat3", style = "filled, solid", shape = "box"]
+"8" [color = "wheat3", style = "filled, solid", shape = "box"]
+"EAST" [color = "#efdf84", style = "filled, solid", shape = "box"]
+subgraph "cluster_REPORT" {node [style=filled,color=white]; label="REPORT"; style=filled;color=lightgrey; }
+subgraph "cluster_MOVEMENT" {node [style=filled,color=white]; label="MOVEMENT"; style=filled;color=lightgrey; NORTH; SOUTH; EAST; WEST; }
+}
